@@ -1,14 +1,14 @@
-# Collaborators:
+# Collaborators: A period!
 
 def double_it(x):
-    product =  # add code here
-
+    x = int(x)
+    product =  x * 2
     return product
 
 
 if __name__ == '__main__':
-    print(double_it(6))
+    # print(double_it(5))
 
     # After you are satisfied with your results, use input() to prompt the user for a value:
-    # v = int(input("Value to double: "))
-    # print(double_it(v))
+    v = input("Value to double: ")
+    print(double_it(v))
